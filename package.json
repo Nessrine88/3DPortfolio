@@ -1,3 +1,4 @@
+
 {
   "name": "3dportfolio",
   "private": true,
@@ -6,7 +7,6 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d .",
-    "homepage": "https://Nessrine88.github.io/3DPortfolio",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -37,5 +37,6 @@
     "postcss": "^8.4.32",
     "tailwindcss": "^3.3.6",
     "vite": "^5.0.8"
-  }
+  },
+  "homepage": "https://nessrine88.github.io/3DPortfolio/"
 }
